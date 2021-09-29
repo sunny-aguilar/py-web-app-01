@@ -1,6 +1,6 @@
 from flask import Flask
 
-from app.index import index_bp
+from index.routes import index_bp
 
 
 def create_app():
