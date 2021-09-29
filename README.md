@@ -5,7 +5,9 @@ I employ Flask Blueprints to bring modularity to routes and functionality.
 Visual Structure:
 .
 ├── __init__.py
+
 ├── app
+
 │   ├── __init__.py
 │   ├── index
 │   │   ├── __init__.py
