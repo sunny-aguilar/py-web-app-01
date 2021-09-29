@@ -17,4 +17,6 @@ Visual Structure:
 │       └── routes.py
 └── run.py
 ```
-Each folder within the app directory holds a blueprint along with its associated routes. This in turns makes the app more modular and re-usable.
+Each folder within the app directory holds a blueprint along with its associated routes. This in turns makes the app:
+- more modular
+- re-usable.
