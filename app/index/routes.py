@@ -1,10 +1,11 @@
 from flask import Blueprint, render_template
 
-index_bp = Blueprint('index_bp', __name__)
+index_bp = Blueprint('index_bp', __name__, template_folder='template')
 
 @index_bp.route('/')
 def index():
-  return '<h1>Index Page<h1>'
+  msg = 'Index Page'
+  return render_template('index.html', msg=msg)
 
 
 
