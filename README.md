@@ -11,9 +11,13 @@ Visual Structure:
 ├── app
 
 │   ├── __init__.py
+
 │   ├── index
+
 │   │   ├── __init__.py
+
 │   │   └── routes.py
+
 │   └── api
 │       ├── __init__.py
 │       └── routes.py
