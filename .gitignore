@@ -3,3 +3,6 @@ env
 app/__pycache__
 app/index/__pycache__
 app/api/__pycache__
+.DS_Store
+.gcloudignore
+app/.DS_Store
