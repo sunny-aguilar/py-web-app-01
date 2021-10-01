@@ -17,9 +17,9 @@
   <!-- link to pages -->
   <a href="/api">API Page Link</a>
   <h2>Hi, {{ user.username }}</h2>
-  {{% for post in posts $}}
+  {% for post in posts %}
   <div><p>{{ post.author.username }}</p></div>
-  {{% endfor %}}
+  {% endfor %}
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
