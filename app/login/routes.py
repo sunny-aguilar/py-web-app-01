@@ -5,4 +5,4 @@ from app.forms import LoginForm
 
 @app.route('/login')
 def login():
-    form = LoginForm()
+  form = LoginForm()
