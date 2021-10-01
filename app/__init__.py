@@ -3,6 +3,7 @@ from config import Config
 
 from .index.routes import index_bp
 from .api.routes import api_bp
+from .login.routes import login_bp
 
 
 def create_app():
