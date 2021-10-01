@@ -18,7 +18,7 @@ def index():
     }
   ]
   title = 'Index Page'
-  return render_template('index.html', msg=msg, title=title, user=user, posts=posts)
+  return render_template('index.html', title=title, user=user, posts=posts)
 
 
 
