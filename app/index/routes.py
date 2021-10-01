@@ -7,7 +7,8 @@ index_bp = Blueprint('index_bp', __name__, template_folder='templates')
 def index():
   """ 2nd decorators adds another route to same function """
   msg = 'Index Page'
-  return render_template('index.html', msg=msg)
+  title = 'Index Page'
+  return render_template('index.html', msg=msg, title=title)
 
 
 
