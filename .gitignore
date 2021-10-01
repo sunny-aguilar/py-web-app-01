@@ -1,5 +1,6 @@
 # ignored files and folders
 env
+__pycache__
 app/__pycache__
 app/index/__pycache__
 app/api/__pycache__
