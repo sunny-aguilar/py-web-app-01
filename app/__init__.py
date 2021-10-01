@@ -7,7 +7,6 @@ from .api.routes import api_bp
 
 def create_app():
   app = Flask(__name__)
-
   app.config.from_object(Config)
 
   with app.app_context():
