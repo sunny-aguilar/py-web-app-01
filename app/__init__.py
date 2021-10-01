@@ -13,5 +13,6 @@ def create_app():
   with app.app_context():
     app.register_blueprint(index_bp)
     app.register_blueprint(api_bp)
+    app.register_blueprint(login_bp)
 
   return app
