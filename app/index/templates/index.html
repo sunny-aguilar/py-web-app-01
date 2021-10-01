@@ -4,10 +4,10 @@
 {% extends "base.html" %)
 
 {% block content %}
-  <!-- link to pages -->
-  <a href="/api">API Page Link</a>
-  <h2>Hi, {{ user.username }}</h2>
-  {% for post in posts %}
-  <div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
-  {% endfor %}
+    <!-- link to pages -->
+    <h2>Hi, {{ user.username }}</h2>
+    {% for post in posts %}
+    <div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
+    {% endfor %}
+    <a href="/api">API Page Link</a>
 {% endblock%}
