@@ -10,4 +10,3 @@ def login():
     flash(f'Login requested for user {form.username.data}, remember_me={form.remember_me.data}')
     return redirect('/')
   return render_template('login.html', title='Sign In', form=form)
-
